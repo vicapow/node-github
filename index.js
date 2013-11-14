@@ -679,6 +679,7 @@ var Client = module.exports = function(config) {
                 }
                 else {
                     res.data = data;
+                    console.log("RESPONSE: " + data);
                     callback(null, res);
                 }
             });
